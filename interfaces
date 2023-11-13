@@ -1,0 +1,48 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+source /etc/network/interfaces.d/*
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+auto tap0
+iface tap0 inet manual
+	pre-up ip tuntap add $IFACE mode tap user jaideraao
+	up ip link set dev $IFACE up
+	post-down ip link del dev $IFACE
+
+auto tap1
+iface tap1 inet manual
+	pre-up ip tuntap add $IFACE mode tap user jaideraao
+	up ip link set dev $IFACE up
+	post-down ip link del dev $IFACE
+
+auto tap2
+iface tap2 inet manual
+	pre-up ip tuntap add $IFACE mode tap user jaideraao
+	up ip link set dev $IFACE up
+	post-down ip link del dev $IFACE
+
+auto tap3
+iface tap3 inet manual
+	pre-up ip tuntap add $IFACE mode tap user jaideraao
+	up ip link set dev $IFACE up
+	post-down ip link del dev $IFACE
+
+auto br0
+iface br0 inet manual
+	pre-up ip link add $IFACE type bridge
+	up ip link set tap0 master $IFACE
+#	up ip address add 192.168.3.7/24 dev $IFACE
+	post-down ip link del dev $IFACE
+
+auto br1
+iface br1 inet manual
+	pre-up ip link add $IFACE type bridge
+	up ip link set tap1 master $IFACE
+	up ip link set tap2 master $IFACE
+	up ip link set tap3 master $IFACE
+#	up ip address add 192.168.3.7/24 dev $IFACE
+	post-down ip link del dev $IFACE
