@@ -7,42 +7,17 @@ source /etc/network/interfaces.d/*
 auto lo
 iface lo inet loopback
 
-auto tap0
-iface tap0 inet manual
-	pre-up ip tuntap add $IFACE mode tap user jaideraao
-	up ip link set dev $IFACE up
-	post-down ip link del dev $IFACE
+# iface enx0c37961f0008 inet manual
 
-auto tap1
-iface tap1 inet manual
-	pre-up ip tuntap add $IFACE mode tap user jaideraao
-	up ip link set dev $IFACE up
-	post-down ip link del dev $IFACE
-
-auto tap2
-iface tap2 inet manual
-	pre-up ip tuntap add $IFACE mode tap user jaideraao
-	up ip link set dev $IFACE up
-	post-down ip link del dev $IFACE
-
-auto tap3
-iface tap3 inet manual
-	pre-up ip tuntap add $IFACE mode tap user jaideraao
-	up ip link set dev $IFACE up
-	post-down ip link del dev $IFACE
-
-auto br0
-iface br0 inet manual
-	pre-up ip link add $IFACE type bridge
-	up ip link set tap0 master $IFACE
-#	up ip address add 192.168.3.7/24 dev $IFACE
-	post-down ip link del dev $IFACE
-
-auto br1
-iface br1 inet manual
-	pre-up ip link add $IFACE type bridge
-	up ip link set tap1 master $IFACE
-	up ip link set tap2 master $IFACE
-	up ip link set tap3 master $IFACE
-#	up ip address add 192.168.3.7/24 dev $IFACE
-	post-down ip link del dev $IFACE
+# interface bridge para inet
+# auto br0
+# iface br0 inet dhcp
+	# pre-up ip tuntap add tap0 mode tap user jaideraao
+    # pre-up ip link add $IFACE type bridge
+	# pre-up ip link set dev tap0 up
+    # pre-up ip link set dev enx0c37961f0008 master $IFACE
+    # pre-up ip link set tap0 master $IFACE
+	# post-down ip link del dev tap0
+    # post-down ip link del dev $IFACE
+    # up ip address add 192.168.3.3/24 dev $IFACE
+    # down ip addr flush dev br0
