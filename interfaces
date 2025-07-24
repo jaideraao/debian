@@ -10,12 +10,10 @@ iface lo inet loopback
 # The primary network interface
 # allow-hotplug wlo1
 # iface wlo1 inet dhcp
-    # wpa-ssid N3T
-    # wpa-psk  vyjwyq-vipkiw-7Ciqce
 
-auto tap100
-iface tap100 inet manual
-    pre-up ip link add link enp2s0 name $IFACE index 100 address 36:f3:05:52:23:35 type macvtap
+auto tap7
+iface tap7 inet manual
+    pre-up ip link add link enp2s0 name $IFACE index 7 address 36:f3:05:52:23:35 type macvtap
     pre-up chown jaideraao:jaideraao /dev/$IFACE
     pre-up ip link set dev $IFACE up
     post-down ip link delete dev $IFACE
