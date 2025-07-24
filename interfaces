@@ -7,17 +7,27 @@ source /etc/network/interfaces.d/*
 auto lo
 iface lo inet loopback
 
-# iface enx0c37961f0008 inet manual
+# The primary network interface
+# allow-hotplug wlo1
+# iface wlo1 inet dhcp
+    # wpa-ssid N3T
+    # wpa-psk  vyjwyq-vipkiw-7Ciqce
 
-# interface bridge para inet
-# auto br0
-# iface br0 inet dhcp
-	# pre-up ip tuntap add tap0 mode tap user jaideraao
-    # pre-up ip link add $IFACE type bridge
-	# pre-up ip link set dev tap0 up
-    # pre-up ip link set dev enx0c37961f0008 master $IFACE
-    # pre-up ip link set tap0 master $IFACE
-	# post-down ip link del dev tap0
-    # post-down ip link del dev $IFACE
-    # up ip address add 192.168.3.3/24 dev $IFACE
-    # down ip addr flush dev br0
+auto tap100
+iface tap100 inet manual
+    pre-up ip link add link enp2s0 name $IFACE index 100 address 36:f3:05:52:23:35 type macvtap
+    pre-up chown jaideraao:jaideraao /dev/$IFACE
+    pre-up ip link set dev $IFACE up
+    post-down ip link delete dev $IFACE
+
+auto br0
+iface br0 inet manual
+    pre-up ip link add $IFACE type bridge
+    pre-up ip tuntap add tap0 mode tap user jaideraao group jaideraao
+    pre-up ip link set dev tap0 up
+    pre-up ip link set tap0 master $IFACE
+    pre-up ip link set dev $IFACE up
+    post-down ip link del dev tap0
+    post-down ip link del dev $IFACE
+    up ip address add 192.168.3.100/24 dev $IFACE
+    down ip addr flush dev $IFACE

@@ -10,7 +10,7 @@
 # ===============
 #  - Change the GTK+ theme
 [org/gnome/desktop/interface]
-gtk-theme='Adwaita'
+gtk-theme='Yaru-blue'
 cursor-theme='Breeze_Snow'
 icon-theme='Papirus'
 #  - Use another background
