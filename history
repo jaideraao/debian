@@ -1,0 +1,1000 @@
+ 1002  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1003  xfreerdp /v:192.168.3.1
+ 1004  tree /tmp/
+ 1005  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1006  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1007  xfreerdp /v:192.168.3.1
+ 1008  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1009  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1010  xfreerdp /v:192.168.3.1
+ 1011  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1012  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1013  xfreerdp /v:192.168.3.1
+ 1014  ip -c route list 
+ 1015  ip -c addr show 
+ 1016  pwd
+ 1017  cd Qemu/
+ 1018  vim winpc.cfg 
+ 1019  ip -c addr show 
+ 1020  ip -c route list 
+ 1021  ping debian.org
+ 1022  dig https://recordingware.comware.com.co/
+ 1023  nslookup https://recordingware.comware.com.co/
+ 1024  nslookup recordingware.comware.com.co
+ 1025  ping recordingware.comware.com.co
+ 1026  ping debian.org
+ 1027  ip -c route list 
+ 1028  cd Qemu/
+ 1029  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1030  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1031  xfreerdp /v:192.168.3.1
+ 1032  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1033  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1034  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1035  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1036  xfreerdp /v:192.168.3.1
+ 1037  socat stdio,echo=0,icanon=0 unix-connect:/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-mon.sock
+ 1038  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1039  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1040  nping --tcp -p 3389 192.168.3.1
+ 1041  sudo nping --tcp -p 3389 192.168.3.1
+ 1042  xfreerdp /v:192.168.3.1
+ 1043  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1044  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1045  ping https://recordingware.comware.com.co/
+ 1046  ping recordingware.comware.com.co
+ 1047  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1048  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1049  xfreerdp /v:192.168.3.1
+ 1050  socat stdio,echo=0,icanon=0 unix-connect:/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-mon.sock
+ 1051  pwd
+ 1052  socat stdio,echo=0,icanon=0 unix-connect:/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-mon.sock
+ 1053  tree /tmp/
+ 1054  socat stdio,echo=0,icanon=0 unix-connect:/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-mon.sock
+ 1055  top
+ 1056  tree /tmp/
+ 1057  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1058  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1059  xfreerdp /v:192.168.3.1
+ 1060  sudo apt update 
+ 1061  apt list -a --upgradable 
+ 1062  sudo apt upgrade 
+ 1063  sudo apt autopurge 
+ 1064  ping debian.org
+ 1065  bluetoothctl list
+ 1066  bluetoothctl show
+ 1067  bluetoothctl devices
+ 1068  bluetoothctl scan
+ 1069  bluetoothctl 
+ 1070  java -v
+ 1071  java -V
+ 1072  java --version
+ 1073  which java 
+ 1074  bluetoothctl 
+ 1075  bluetoothctl -h
+ 1076  bluetooth
+ 1077  bluetoothctl 
+ 1078  apt list *bluetooth*
+ 1079  hcitool 
+ 1080  hcitool scan
+ 1081  btmgmt 
+ 1082  bluetoothctl show
+ 1083  bluetoothctl 
+ 1084  ping 192.168.1.24
+ 1085  ping 10.30.50.194
+ 1086  ping 10.30.50.195
+ 1087  ping 10.30.50.196
+ 1088  tree .ssh/
+ 1089  man ssh-copy-id 
+ 1090  pwd
+ 1091  ssh-copy-id root@10.30.50.194
+ 1092  ssh root@10.30.50.194
+ 1093  cd Descargas/
+ 1094  treq
+ 1095  tree 
+ 1096  ls webstart.jnlp 
+ 1097  chmod +x webstart.jnlp 
+ 1098  ls
+ 1099  ./webstart.jnlp 
+ 1100  man java 
+ 1101  cd
+ 1102  tree .ssh/
+ 1103  man ssh-copy-id 
+ 1104  cd .ssh/
+ 1105  tree 
+ 1106  ssh-copy-id -i id_comware.pub root@10.30.50.194
+ 1107  cd
+ 1108  vim .ssh/config 
+ 1109  ssh proxy-pri 
+ 1110  vim .ssh/config 
+ 1111  ssh-copy-id -i id_comware.pub root@10.30.50.195
+ 1112  cd .ssh/
+ 1113  ssh-copy-id -i id_comware.pub root@10.30.50.195
+ 1114  vim .ssh/config 
+ 1115  cd
+ 1116  ssh-copy-id -i /home/jaideraao/.ssh/id_comware.pub root@10.30.50.195
+ 1117  ssh proxy-pri 
+ 1118  ssh root@10.30.50.194
+ 1119  cat .ssh/known_hosts
+ 1120  vim .ssh/config 
+ 1121  cat .ssh/known_hosts
+ 1122  ssh proxy-pri 
+ 1123  ssh proxy-sec 
+ 1124  vim .ssh/config 
+ 1125  ping 10.30.50.194
+ 1126  ping 10.30.50.195
+ 1127  vim .ssh/config 
+ 1128  ssh -v proxy-pri 
+ 1129  ssh root@10.30.50.195
+ 1130  ssh root@10.30.50.194
+ 1131  ssh proxy-pri 
+ 1132  cd
+ 1133  cd Descargas/
+ 1134  tree 
+ 1135  apt list icedtea-netx 
+ 1136  apt show icedtea-netx 
+ 1137  ip -c route list 
+ 1138  ping debian.org
+ 1139  sudo apt install icedtea-netx 
+ 1140  cd
+ 1141  javaws Descargas/webstart.jnlp 
+ 1142  tree 
+ 1143  cd Descargas/
+ 1144  tree 
+ 1145  ls
+ 1146  chmod +x webstart.jar 
+ 1147  ls
+ 1148  javaws webstart.jar
+ 1149  ping 10.30.50.195
+ 1150  apt search jnlp
+ 1151  apt show libnetx-java 
+ 1152  ping debian.org
+ 1153  sudo apt install libnetx-java 
+ 1154  man jnl 
+ 1155  apt show libnetx-java 
+ 1156  sudo apt purge icedtea-netx 
+ 1157  sudo apt autopurge 
+ 1158  tree 
+ 1159  java webstart.jar
+ 1160  java webstart.jnlp
+ 1161  java -javaagent:webstart.jar 
+ 1162  java -jar webstart.jar 
+ 1163  ls
+ 1164  java -jnlp webstart.jnlp
+ 1165  java -jar webstart.jar -jnlp webstart.jnlp
+ 1166  java -jar webstart.jar 
+ 1167  tio -b 19200 /dev/ttyUSB0 
+ 1168  id
+ 1169  lsusb 
+ 1170  cd Descargas/
+ 1171  java -jar webstart.jar 
+ 1172  sudo apt install icedtea-netx 
+ 1173  pwd
+ 1174  ls
+ 1175  man javaws 
+ 1176  cd
+ 1177  man javaws 
+ 1178  man cp
+ 1179  javaws -h
+ 1180  javaws Descargas/webstart.jnlp 
+ 1181  cd
+ 1182  cd Qemu/
+ 1183  tree 
+ 1184  nmcli connection down wired 
+ 1185  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1186  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1187  sudo nping --tcp -p 3389 192.168.3.1
+ 1188  ip -c link show enp2s0 
+ 1189  xfreerdp /v:192.168.3.1
+ 1190  lsusb 
+ 1191  cd Qemu/
+ 1192  pwd
+ 1193  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1194  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1195  sudo nping --tcp -p 3389 192.168.3.1
+ 1196  ip -c addr show 
+ 1197  nmcli connection down wired 
+ 1198  xfreerdp /v:192.168.3.1
+ 1199  ping backofficeicetex.comware.com.co
+ 1200  sudo nping --tcp -p 443 backofficeicetex.comware.com.co
+ 1201  cd Qemu/
+ 1202  tree 
+ 1203  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1204  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1205  sudo nping --tcp -p 3389 192.168.3.1
+ 1206  xfreerdp /v:192.168.3.1
+ 1207  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1208  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1209  sudo nping --tcp -p 3389 192.168.3.1
+ 1210  sudo nping --tcp -p 3389 192.168.3.1 -c 30
+ 1211  cd Qemu/
+ 1212  tree /tmp/
+ 1213  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1214  sudo nping --tcp -p 3389 192.168.3.1 -c 30
+ 1215  xfreerdp /v:192.168.3.1
+ 1216  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1217  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1218  sudo nping --tcp -p 3389 192.168.3.1 -c 30
+ 1219  xfreerdp /v:192.168.3.1
+ 1220  man tio
+ 1221  tio -L
+ 1222  ls /dev/ttyUSB0 
+ 1223  tio /dev/serial/by-id/usb-Prolific_Technology_Inc._USB-Serial_Controller_D-if00-port0 
+ 1224  sudo apt update 
+ 1225  apt list --upgradable 
+ 1226  sudo apt upgrade 
+ 1227  curl https://backofficeicetex.comware.com.co/otrs/index.pl?Action=AgentTicketZoom;TicketID=75026
+ 1228  curl -v https://backofficeicetex.comware.com.co/otrs/index.pl?Action=AgentTicketZoom;TicketID=75026
+ 1229  ping backofficeicetex.comware.com.co
+ 1230  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1231  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1232  sudo nping --tcp -p 3389 192.168.3.1 -c 30
+ 1233  xfreerdp /v:192.168.3.1
+ 1234  apt list -a firefox-esr
+ 1235  sudo apt update 
+ 1236  ping debian.org
+ 1237  apt list -a firefox-esr
+ 1238  sudo apt update 
+ 1239  sudo apt upgrade 
+ 1240  apt list ifuse 
+ 1241  sudo apt install ifuse 
+ 1242  ifuse -h
+ 1243  pwd
+ 1244  mkdir iPhone
+ 1245  ifuse iPhone/
+ 1246  tree /media/
+ 1247  tree /media/jaideraao/
+ 1248  ls /media/
+ 1249  ls /media/jaideraao/
+ 1250  cd
+ 1251  tree iPhone/
+ 1252  rmdir iPhone/
+ 1253  ifuse /media/jaideraao/
+ 1254  ls /me
+ 1255  ls /media/
+ 1256  mkdir /media/jaideraao/iPhone
+ 1257  ls /media/
+ 1258  ls
+ 1259  ls /
+ 1260  apt list *linux
+ 1261  apt list *linux*
+ 1262  apt list linux*
+ 1263  apt list linux-image-*
+ 1264  apt list linux-image-6.1.0-*
+ 1265  uname -r
+ 1266  uname -a
+ 1267  sudo apt install linux-image-6.1.0-23-amd64
+ 1268  apt show linux-image-6.1.0-23-amd64
+ 1269  apt show linux-image-6.1.0-23-rt-amd64
+ 1270  apt show gstreamer-qapt 
+ 1271  apt show gstreamer1.0-plugins-base-apps 
+ 1272  apt show gstreamer1.0-plugins-
+ 1273  apt show gstreamer1.0-plugins-rtp 
+ 1274  apt show gstreamer1.0-rtsp 
+ 1275  apt show gstreamer1.0-vaapi 
+ 1276  apt list *vaapi*
+ 1277  sudo apt install gstreamer1.0-vaapi 
+ 1278  apt show libgtk-4-media-gstreamer 
+ 1279  cat .config/pipewire/pipewire.conf 
+ 1280  vim .config/pipewire/pipewire.conf 
+ 1281  pw-metadata -n settings 0 clock.force-rate 192000
+ 1282  vim .config/pipewire/pipewire.conf 
+ 1283  systemctl --user restart pipewire pipewire-pulse
+ 1284  uname -r
+ 1285  sudo dmesg | egrep 'error|failed|warning'
+ 1286  dmesg -h
+ 1287  sudo dmesg -L | egrep 'error|failed|warning'
+ 1288  sudo dmesg -L
+ 1289  sudo dmesg -L | egrep 'error|failed|warning'
+ 1290  sudo dmesg -L | egrep 'error|failed|warning|firmware'
+ 1291  apt show firmware-iwlwifi 
+ 1292  apt list *iwlwifi*
+ 1293  ls /lib/firmware/
+ 1294  ls /lib/firmware/ | egrep ibt-19-32-4.sfi
+ 1295  sudo apt install firmware-iwlwifi 
+ 1296  apt download firmware-iwlwifi 
+ 1297  mv firmware-iwlwifi_20230210-5_all.deb Descargas/
+ 1298  ls /lib/firmware/intel | egrep ibt-19-32-4.sfi
+ 1299  apt list *apt*
+ 1300  sudo apt install apt-listbugs 
+ 1301  sudo dmesg -L | egrep 'error|failed|warning|firmware'
+ 1302  lsusb 
+ 1303  apt search lvfs
+ 1304  fwupdmgr 
+ 1305  fwupdmgr --help
+ 1306  fwupdmgr get-devices 
+ 1307  apt list *flac*
+ 1308  apt show flac
+ 1309  apt show rename-flac
+ 1310  apt show flactag 
+ 1311  apt show alac
+ 1312  apt list *alac*
+ 1313  apt list *aac*
+ 1314  apt show faac 
+ 1315  apt show aac-enc 
+ 1316  apt show lollypop 
+ 1317  apt show gstreamer1.0-libav 
+ 1318  dpkg -l gstreamer1.0-libav 
+ 1319  sudo apt install gstreamer1.0-libav 
+ 1320  apt list *gstreamer*
+ 1321  apt list *pipewire*
+ 1322  apt list *pavucontrol*
+ 1323  apt show pavucontrol
+ 1324  sudo apt install pavucontrol
+ 1325  id
+ 1326  apt list *pipewire*
+ 1327  wpctl status
+ 1328  wpctl -h
+ 1329  wpctl set-profile -h
+ 1330  wpctl inspect -h
+ 1331  wpctl inspect 42
+ 1332  wpctl set-profile -h
+ 1333  wpctl set-profile 
+ 1334  wpctl status
+ 1335  grep -E 'Codec|Audio Output|rates' /proc/asound/card*/codec#*
+ 1336  grep rate: /proc/asound/card?/pcm??/sub?/hw_params
+ 1337  pw-top 
+ 1338  cat /proc/asound/card0/stream0 
+ 1339  grep -E 'Codec|Audio Output|rates' /proc/asound/card*/codec#*
+ 1340  pw-top 
+ 1341  grep -E 'Codec|Audio Output|rates' /proc/asound/card*/codec#*
+ 1342  cat /proc/asound/cards 
+ 1343  cat /proc/asound/devices 
+ 1344  cat /proc/asound/pcm 
+ 1345  cat /proc/asound/card1/pcm0c/info 
+ 1346  cat /proc/asound/card1/pcm0p/info 
+ 1347  cat /proc/asound/card1/pcm0c/sub0/hw_params 
+ 1348  cat /proc/asound/card1/pcm0c/sub0/status 
+ 1349  cat /proc/asound/card1/pcm0p/sub0/status 
+ 1350  cat /proc/asound/card1/pcm0p/sub0/hw_params 
+ 1351  cat /proc/asound/card1/pcm3p/sub0/hw_params 
+ 1352  cat /proc/asound/card1/pcm3p/info 
+ 1353  cat /proc/asound/card1/pcm3p/sub0/info 
+ 1354  cat /proc/asound/card1/pcm3p/sub0/hw_params 
+ 1355  grep rate: /proc/asound/card?/pcm??/sub?/hw_params
+ 1356  grep -E 'Codec|Audio Output|rates' /proc/asound/card*/codec#*
+ 1357  mkdir .config/pipewire
+ 1358  vim .config/pipewire/pipewire.conf
+ 1359  pw-top 
+ 1360  grep -E 'Codec|Audio Output|rates' /proc/asound/card*/codec#*
+ 1361  pw-top 
+ 1362  grep -E 'Codec|Audio Output|rates' /proc/asound/card*/codec#*
+ 1363  pw-top 
+ 1364  grep -E 'Codec|Audio Output|rates' /proc/asound/card*/codec#*
+ 1365  grep rate: /proc/asound/card?/pcm??/sub?/hw_params
+ 1366  pw-top 
+ 1367  pw-metadata -n settings 0 clock.allowed-rates 44100 48000 96000 192000
+ 1368  pw-metadata -n settings 0 clock.allowed-rates [ 44100 48000 96000 192000 ]
+ 1369  pw-metadata -n settings 0 clock.allowed-rates [ 44100, 48000, 96000, 192000 ]
+ 1370  pw-top 
+ 1371  systemctl --user restart pipewire pipewire-pulse
+ 1372  find . -iname pipewire
+ 1373  find . -iname wireplumber
+ 1374  cat .local/state/wireplumber/default-nodes 
+ 1375  cat .local/state/wireplumber/default-profile 
+ 1376  cat .local/state/wireplumber/default-routes 
+ 1377  cat .local/state/wireplumber/restore-stream 
+ 1378  mv .local/state/wireplumber .local/state/wireplumber~
+ 1379  pw-top 
+ 1380  man pw-top 
+ 1381  pw-top 
+ 1382  systemctl --user restart pipewire pipewire-pulse
+ 1383  ls .local/state/
+ 1384  ls .local/state/wireplumber
+ 1385  ls .local/state/wireplumber~/
+ 1386  rmdir .local/state/wireplumber
+ 1387  rm -f .local/state/wireplumber
+ 1388  rm -rf .local/state/wireplumber
+ 1389  ls .local/state/wireplumber~/
+ 1390  mv .local/state/wireplumber~/ .local/state/wireplumber
+ 1391  ls .local/state/wireplumber/
+ 1392  systemctl --user restart pipewire pipewire-pulse
+ 1393  pw-top 
+ 1394  systemctl --user restart pipewire pipewire-pulse
+ 1395  grep -E 'Codec|Audio Output|rates' /proc/asound/card*/codec#*
+ 1396  grep rate: /proc/asound/card?/pcm??/sub?/hw_params
+ 1397  pw-metadata -n settings 0 clock.force-rate 192000
+ 1398  grep rate: /proc/asound/card?/pcm??/sub?/hw_params
+ 1399  pw-metadata -n settings 0 clock.force-rate 48000
+ 1400  pw-metadata -n settings 0 clock.force-rate 192000
+ 1401  grep rate: /proc/asound/card?/pcm??/sub?/hw_params
+ 1402  pw-top 
+ 1403  tree /usr/share/pipewire/
+ 1404  pw-dump 
+ 1405  apt help helvum
+ 1406  systemctl --user restart pipewire pipewire-pulse
+ 1407  grep rate: /proc/asound/card?/pcm??/sub?/hw_params
+ 1408  grep -E 'Codec|Audio Output|rates' /proc/asound/card*/codec#*
+ 1409  systemctl --user restart pipewire pipewire-pulse
+ 1410  systemctl --user restart wireplumber pipewire pipewire-pulse
+ 1411  pw-top 
+ 1412  vim .config/pipewire/pipewire.conf
+ 1413  killall pipewire
+ 1414  systemctl --user restart pipewire pipewire-pulse
+ 1415  sudo cat /usr/share/pipewire/pipewire.conf 
+ 1416  mv .config/pipewire/pipewire.conf 
+ 1417  mv .config/pipewire/pipewire.conf .config/pipewire/pipewire.conf~
+ 1418  systemctl --user restart pipewire pipewire-pulse
+ 1419  mv .config/pipewire/pipewire.conf~ .config/pipewire/pipewire.conf
+ 1420  vim .config/pipewire/pipewire.conf 
+ 1421  mv .config/pipewire/pipewire.conf .config/pipewire/pipewire.conf~
+ 1422  vim .config/pipewire/pipewire.conf 
+ 1423  pwd
+ 1424  vim .config/pipewire/pipewire.conf 
+ 1425  cp /usr/share/pipewire/pipewire.conf .config/pipewire/
+ 1426  vim .config/pipewire/pipewire.conf 
+ 1427  cp /usr/share/pipewire/pipewire.conf .config/pipewire/
+ 1428  vim .config/pipewire/pipewire.conf 
+ 1429  cp /usr/share/pipewire/pipewire.conf .config/pipewire/
+ 1430  vim .config/pipewire/pipewire.conf 
+ 1431  grep rate: /proc/asound/card?/pcm??/sub?/hw_params
+ 1432  grep -E 'Codec|Audio Output|rates' /proc/asound/card*/codec#*
+ 1433  vim .config/pipewire/pipewire.conf 
+ 1434  cp /usr/share/pipewire/pipewire.conf .config/pipewire/
+ 1435  vim .config/pipewire/pipewire.conf 
+ 1436  rm .config/pipewire/pipewire.conf
+ 1437  install -d .config/pipewire/pipewire.conf.d
+ 1438  tree .config/pipewire/
+ 1439  tree .config/pipewire/pipewire.conf.d/
+ 1440  ls .config/pipewire/
+ 1441  ls .config/pipewire/pipewire.conf
+ 1442  cd .config/pipewire/
+ 1443  ls
+ 1444  rm pipewire.conf
+ 1445  ls
+ 1446  cd
+ 1447  vim .config/pipewire/pipewire.conf.d/sample-rate.conf
+ 1448  pwd
+ 1449  tree .config/pipewire/
+ 1450  cat .config/pipewire/pipewire.conf
+ 1451  tree .config/pipewire/
+ 1452  ls .config/pipewire/
+ 1453  ls .config/pipewire/pipewire.conf.d/
+ 1454  vim .config/pipewire/pipewire.conf.d/sample-rate.conf
+ 1455  apt list *pwvucontrol*
+ 1456  apt list *Pavucontrol*
+ 1457  sudo apt install pavucontrol
+ 1458  pactl info 
+ 1459  pactl list 
+ 1460  vim .config/pipewire/pipewire.conf.d/sample-rate.conf
+ 1461  systemctl --user restart wireplumber pipewire pipewire-pulse
+ 1462  vim .config/pipewire/pipewire.conf.d/sample-rate.conf
+ 1463  systemctl --user restart wireplumber pipewire pipewire-pulse
+ 1464  vim .config/pipewire/pipewire.conf.d/sample-rate.conf
+ 1465  wpctl ls node
+ 1466  wpctl ls Node
+ 1467  pw-cli ls Node
+ 1468  pw-top 
+ 1469  pw-top 
+ 1470  pactl list 
+ 1471  pactl list sinks | grep -B1 -A9 State
+ 1472  wpctl status
+ 1473  pactl info
+ 1474  pactl -h
+ 1475  pactl get-default-sink
+ 1476  pactl get-default-source
+ 1477  pactl list short
+ 1478  pactl -h
+ 1479  pw-cli ls Device
+ 1480  grep -E 'Codec|Audio Output|rates' /proc/asound/card*/codec#*
+ 1481  vim .config/pipewire/pipewire.conf.d/sample-rate.conf
+ 1482  systemctl --user restart wireplumber pipewire pipewire-pulse
+ 1483  pw-top 
+ 1484  pw-cli ls Node
+ 1485  pw-metadata -n settings
+ 1486  pw-top 
+ 1487  grep -E 'Codec|Audio Output|rates' /proc/asound/card*/codec#*
+ 1488  grep rate: /proc/asound/card?/pcm??/sub?/hw_params
+ 1489  pw-metadata -n settings
+ 1490  pw-top 
+ 1491  mount
+ 1492  lsblk 
+ 1493  pw-top 
+ 1494  vim .config/pipewire/pipewire.conf.d/sample-rate.conf
+ 1495  systemctl --user restart wireplumber pipewire pipewire-pulse
+ 1496  pw-top 
+ 1497  systemctl --user restart wireplumber pipewire pipewire-pulse
+ 1498  vim .config/pipewire/pipewire.conf.d/sample-rate.conf
+ 1499  systemctl --user restart wireplumber pipewire pipewire-pulse
+ 1500  pw-top 
+ 1501  cd
+ 1502  file Música/Música/01\ Haz\ Arder\ La\ Zarza\ \(En\ Vivo\).m4a 
+ 1503  pw-top 
+ 1504  vim .config/pipewire/pipewire.conf.d/sample-rate.conf
+ 1505  pw-top 
+ 1506  fg "%vim" 
+ 1507  systemctl --user restart wireplumber pipewire pipewire-pulse
+ 1508  pw-top 
+ 1509  cd
+ 1510  wpctl -h
+ 1511  wpctl 
+ 1512  wpctl status
+ 1513  wpctl 
+ 1514  wpctl inspect 44
+ 1515  wpctl inspect 53
+ 1516  pactl info 
+ 1517  pactl list 
+ 1518  pactl list > Descargas/pactl.txt
+ 1519  wpctl inspect 44
+ 1520  wpctl 
+ 1521  wpctl set-profile 44 0
+ 1522  wpctl set-profile 44 1
+ 1523  wpctl set-profile 44 0
+ 1524  wpctl set-profile 44 1
+ 1525  wpctl set-profile 44 2
+ 1526  wpctl inspect 44
+ 1527  pactl info 
+ 1528  wpctl set-profile 44 1
+ 1529  pactl info 
+ 1530  wpctl set-profile 44 2
+ 1531  wpctl set-profile 44 3
+ 1532  wpctl set-profile 44 4
+ 1533  wpctl set-profile 44 9
+ 1534  wpctl set-profile 44 12
+ 1535  wpctl set-profile 44 25
+ 1536  wpctl set-profile 44 3
+ 1537  pactl info 
+ 1538  wpctl set-profile 44 2
+ 1539  wpctl set-profile 44 4
+ 1540  pw-top 
+ 1541  wpctl set-profile 44 2
+ 1542  pactl info 
+ 1543  pactl list 
+ 1544  wpctl -h
+ 1545  wpctl statu
+ 1546  wpctl status
+ 1547  wpctl inspect 44
+ 1548  wpctl set-profile 44 2
+ 1549  wpctl status
+ 1550  wpctl set-profile 44 1
+ 1551  wpctl set-profile 44 2
+ 1552  wpctl status
+ 1553  pw-top 
+ 1554  apt list *noise*
+ 1555  pactl list sink
+ 1556  pactl list sinks 
+ 1557  pactl info 
+ 1558  pactl list cards 
+ 1559  pactl list clients 
+ 1560  pactl list samples 
+ 1561  pactl list sink-inputs 
+ 1562  celluloid -h
+ 1563  celluloid --mpv-options=--ao=pipewire
+ 1564  pw-top 
+ 1565  ping debian.org
+ 1566  pw-top 
+ 1567  vim .config/pipewire/pipewire.conf.d/sample-rate.conf
+ 1568  systemctl --user restart wireplumber pipewire pipewire-pulse
+ 1569  pw-top 
+ 1570  vim .config/pipewire/pipewire.conf.d/sample-rate.conf
+ 1571  systemctl --user restart wireplumber pipewire pipewire-pulse
+ 1572  pw-top 
+ 1573  vim .config/pipewire/pipewire.conf.d/sample-rate.conf
+ 1574  grep rate: /proc/asound/card?/pcm??/sub?/hw_params
+ 1575  grep -E 'Codec|Audio Output|rates' /proc/asound/card*/codec#*
+ 1576  vim .config/pipewire/pipewire.conf.d/sample-rate.conf
+ 1577  systemctl --user restart wireplumber pipewire pipewire-pulse
+ 1578  pw-top 
+ 1579  vim .config/pipewire/pipewire.conf.d/sample-rate.conf
+ 1580  mv .config/pipewire/pipewire.conf.d/sample-rate.conf .config/pipewire/pipewire.conf.d/sample-rate.conf~
+ 1581  systemctl --user restart wireplumber pipewire pipewire-pulse
+ 1582  pw-top 
+ 1583  mv .config/pipewire/pipewire.conf.d/sample-rate.conf~ .config/pipewire/pipewire.conf.d/sample-rate.conf
+ 1584  ls .config/pipewire/pipewire.conf.d/
+ 1585  systemctl --user restart wireplumber pipewire pipewire-pulse
+ 1586  pw-top 
+ 1587  vim .config/pipewire/pipewire.conf.d/sample-rate.conf
+ 1588  systemctl --user restart wireplumber pipewire pipewire-pulse
+ 1589  pw-top 
+ 1590  vim .config/pipewire/pipewire.conf.d/sample-rate.conf
+ 1591  systemctl --user restart wireplumber pipewire pipewire-pulse
+ 1592  pw-top 
+ 1593  vim .config/pipewire/pipewire.conf.d/sample-rate.conf
+ 1594  pw-top 
+ 1595  vim .config/pipewire/pipewire.conf.d/sample-rate.conf
+ 1596  systemctl --user restart wireplumber pipewire pipewire-pulse
+ 1597  pw-top 
+ 1598  vim .config/pipewire/pipewire.conf.d/sample-rate.conf
+ 1599  systemctl --user restart wireplumber pipewire pipewire-pulse
+ 1600  pw-top 
+ 1601  bluetooth
+ 1602  bluetoothctl 
+ 1603  hcitool info 
+ 1604  hciconfig up 
+ 1605  sudo rfkill 
+ 1606  hcitool dev 
+ 1607  hcitool info 
+ 1608  cat /etc/bluetooth/main.conf 
+ 1609  bluetoothctl power on
+ 1610  journalctl | egrep hci
+ 1611  sudo rfkill 
+ 1612  hcitool lst 
+ 1613  hcitool info 
+ 1614  hciconfig up hci0
+ 1615  hciconfig hci0 up
+ 1616  sudo hciconfig hci0 up
+ 1617  hcitool info 
+ 1618  hciconfig 
+ 1619  bluetoothctl power on
+ 1620  apt list *celluloid*
+ 1621  apt list -a *celluloid*
+ 1622  apt list *celluloid*
+ 1623  apt show celluloid 
+ 1624  apt list *mp*
+ 1625  apt list *mpv*
+ 1626  apt show gnome-mpv 
+ 1627  sudo apt purge gnome-mpv 
+ 1628  apt show mpv-mpris 
+ 1629  apt list *mpris*
+ 1630  sudo apt update 
+ 1631  apt list --upgradable 
+ 1632  history 
+ 1633  history | egrep 'apt install'
+ 1634  sudo apt purge pavucontrol 
+ 1635  sudo apt autopurge 
+ 1636  sudo apt autoremove 
+ 1637  sudo apt autoclean 
+ 1638  sudo apt update 
+ 1639  ping debian.org
+ 1640  ping 8.8.8.8
+ 1641  ping debian.org
+ 1642  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1643  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1644  cd Qemu/
+ 1645  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1646  sudo nping --tcp -p 3389 192.168.3.1 -c 30
+ 1647  xfreerdp /v:192.168.3.1
+ 1648  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1649  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1650  sudo nping --tcp -p 3389 192.168.3.1 -c 30
+ 1651  xfreerdp /v:192.168.3.1
+ 1652  xfreerdp /v:192.168.3.1 -q
+ 1653  man xfreerdp 
+ 1654  xfreerdp /v:192.168.3.1 //buildconfig
+ 1655  xfreerdp /v:192.168.3.1 /buildconfig
+ 1656  man xfreerdp 
+ 1657  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1658  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1659  sudo nping --tcp -p 3389 192.168.3.1 -c 30
+ 1660  xfreerdp /v:192.168.3.1 /buildconfig
+ 1661  xfreerdp /v:192.168.3.1 
+ 1662  xfreerdp /v:192.168.3.1 --from-stdin
+ 1663  vim ~/.bashrc 
+ 1664  xfreerdp /v:192.168.3.1 /kbd:Spanish
+ 1665  socat stdio,echo=0,icanon=0 unix-connect:/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-mon.sock
+ 1666  xfreerdp /v:192.168.3.1 /kbd:Spanish
+ 1667  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1668  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1669  sudo nping --tcp -p 3389 192.168.3.1 -c 30
+ 1670  xfreerdp /kbd-list
+ 1671  sudo nping --tcp -p 3389 192.168.3.1 -c 30
+ 1672  xfreerdp /v:192.168.3.1 /kbd:Spanish
+ 1673  xfreerdp /kbd-list
+ 1674  xfreerdp /v:192.168.3.1 /kbd:"Latin American"
+ 1675  xfreerdp /kbd-list
+ 1676  socat stdio,echo=0,icanon=0 unix-connect:/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-mon.sock
+ 1677  xfreerdp /v:192.168.3.1 /kbd:"Latin American" /p:jaao
+ 1678  nohup xfreerdp /v:192.168.3.1 /kbd:"Latin American" /p:jaao &
+ 1679  ls
+ 1680  nohup xfreerdp /v:192.168.3.1 /kbd:"Latin American" /p:jaao 
+ 1681  xfreerdp /v:192.168.3.1 /kbd:"Latin American" /p:jaao &
+ 1682  xfreerdp -h
+ 1683  xfreerdp /kbd-lang-list
+ 1684  xfreerdp /v:192.168.3.1 /kbd:"Latin American" /kbd-lang:0x240a /p:jaao
+ 1685  xfreerdp /v:192.168.3.1 /kbd:"Spanish" /kbd-lang:0x240a /p:jaao
+ 1686  vim ~/.bashrc 
+ 1687  xfreerdp /v:192.168.3.1 /p:jaao
+ 1688  vim ~/.bashrc 
+ 1689  xfreerdp /v:192.168.3.1
+ 1690  vim ~/.bashrc 
+ 1691  xfreerdp -h
+ 1692  xfreerdp -h | egrep lang
+ 1693  xfreerdp /kbd-lang-list 
+ 1694  xfreerdp /kbd-lang-list | colombia
+ 1695  xfreerdp /kbd-lang-list | egrep colombia
+ 1696  xfreerdp /kbd-lang-list | egrep Colombia
+ 1697  xfreerdp /v:192.168.3.1 /kbd-lang:es_CO
+ 1698  xfreerdp /v:192.168.3.1 /kbd-lang:"es_CO"
+ 1699  xfreerdp /v:192.168.3.1 /kbd-lang:'es_CO'
+ 1700  vim ~/.bashrc 
+ 1701  xfreerdp /v:192.168.3.1 /kbd-lang-list 
+ 1702  vim ~/.bashrc 
+ 1703  xfreerdp /v:192.168.3.1
+ 1704  ls
+ 1705  cd Qemu/
+ 1706  ls
+ 1707  cat nohup.out 
+ 1708  rm nohup.out 
+ 1709  ls
+ 1710  xfreerdp /v:192.168.3.1
+ 1711  vim ~/.bashrc 
+ 1712  xfreerdp /v:192.168.3.1
+ 1713  sudo apt update 
+ 1714  apt list --upgradable 
+ 1715  swtpm socket -d --tpm2 --tpmstate dir=/tmp --ctrl type=unixio,path=/tmp/ea8ac046-4cfa-11ef-b392-33dcc6ec6c97-tpm.sock
+ 1716  qemu-system-x86_64 -nodefaults -cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time -display none -bios /usr/share/ovmf/OVMF.fd -readconfig winpc.cfg 3<>/dev/tap100 -uuid ea8ac046-4cfa-11ef-b392-33dcc6ec6c97 -daemonize
+ 1717  sudo nping --tcp -p 3389 192.168.3.1 -c 30
+ 1718  xfreerdp /v:192.168.3.1
+ 1719  sudo apt update 
+ 1720  apt list --upgradable 
+ 1721  apt list -a --upgradable 
+ 1722  apt list -a firefox-esr
+ 1723  sudo apt upgrade 
+ 1724  sudo apt install firefox-l10n-es-es 
+ 1725  apt show firefox-l10n-es-es 
+ 1726  apt show firefox
+ 1727  apt show firefox-l10n-es-es 
+ 1728  apt show -a firefox-l10n-es-es 
+ 1729  apt list -a firefox-l10n-es-es 
+ 1730  sudo apt reinstall firefox-l10n-es-es 
+ 1731  pwd
+ 1732  ls
+ 1733  find . -type f -exec ls '{}' +
+ 1734  find . -type f -print -exec ls '{}' +
+ 1735  find . -type f -exec ls '{}' \;
+ 1736  find . -type f -exec ls '{}' +
+ 1737  find . -type f -execdir ls '{}' +
+ 1738  find . -type f -execdir mv '{}' $(uuid).m4a +
+ 1739  find . -type f -name '*.m4a' -execdir mv '{}' $(uuid).m4a \;
+ 1740  ls
+ 1741  sudo apt purge firefox-l10n-es-es 
+ 1742  sudo apt autopurge 
+ 1743  sudo apt autoremove 
+ 1744  sudo apt autoclean 
+ 1745  pw-top 
+ 1746  sudo apt autopurge 
+ 1747  pw-top 
+ 1748  vim ~/.bashrc 
+ 1749  vim .config/pipewire/pipewire.conf.d/sample-rate.conf 
+ 1750  apt list -a firefox-esr
+ 1751  sudo apt autopurge 
+ 1752  apt list -a thunderbird
+ 1753  cd Música/
+ 1754  tree 
+ 1755  cp Música/ .
+ 1756  man cp
+ 1757  cp -b Música/ .
+ 1758  cp -rb Música/ .
+ 1759  cp -r Música/ Música-bk
+ 1760  tree 
+ 1761  tree Música
+ 1762  rm Música/*.png
+ 1763  tree Música
+ 1764  apt list exiftags 
+ 1765  apt show exiftags 
+ 1766  ffmpeg Música/2-04\ El\ Sonido\ del\ Silencio\ \(En\ Vivo.m4a 
+ 1767  ffmpeg -i Música/2-04\ El\ Sonido\ del\ Silencio\ \(En\ Vivo.m4a 
+ 1768  ffprobe Música/2-04\ El\ Sonido\ del\ Silencio\ \(En\ Vivo.m4a 
+ 1769  apt list -a id3*
+ 1770  apt show id3v2 
+ 1771  apt list easytag 
+ 1772  apt show easytag 
+ 1773  sudo apt install easytag 
+ 1774  pwd
+ 1775  apt list -a kid3-cli 
+ 1776  apt show kid3-cli 
+ 1777  sudo apt install kid3-cli 
+ 1778  pwd
+ 1779  ls
+ 1780  cd Música
+ 1781  ls
+ 1782  ls *.png
+ 1783  ffmpeg -i Música/2-04\ El\ Sonido\ del\ Silencio\ \(En\ Vivo.m4a 
+ 1784  pwd
+ 1785  ls
+ 1786  ffmpeg -i 2-03\ Me\ Robaste\ el\ Corazón\ \(a\ Dúo\ Co.m4a 
+ 1787  sudo apt install gnome-music 
+ 1788  pw-top 
+ 1789  cd
+ 1790  mv Descargas/Música/*.m4a Música/
+ 1791  cd
+ 1792  apt show xournal
+ 1793  apt show xournalpp 
+ 1794  rename.ul -h
+ 1795  man rm
+ 1796  man mv
+ 1797  man uuid 
+ 1798  uuid 
+ 1799  uuid -o
+ 1800  uuid -o text.txt
+ 1801  ls
+ 1802  cat text.txt 
+ 1803  rm text.txt 
+ 1804  uuid 
+ 1805  man mv
+ 1806  echo $(uuid)
+ 1807  pwd
+ 1808  cd Música/
+ 1809  ls
+ 1810  mv fc9c05206e288e9b9e93917a238277cb.png $(uuid).png
+ 1811  ls
+ 1812  pwd
+ 1813  ls
+ 1814  rm *.png
+ 1815  ls
+ 1816  which rename.ul 
+ 1817  man find
+ 1818  ls
+ 1819  vim rename-files.sh
+ 1820  ls
+ 1821  chmod +x rename-files.sh 
+ 1822  ls
+ 1823  ./rename-files.sh 
+ 1824  ls
+ 1825  ./rename-files.sh 
+ 1826  ls
+ 1827  find / -name random
+ 1828  apt list rename
+ 1829  man rename
+ 1830  sudo apt install rename
+ 1831  man rename
+ 1832  rename -v 's/*.m4a/$(uuid).m4a/' *.m4a
+ 1833  find . -type f -execdir mv '{}' $(uuid).m4a +
+ 1834  find . -type f -execdir mv '{}' $(uuid).m4a \;
+ 1835  ls
+ 1836  cd Música/
+ 1837  ls
+ 1838  find . -type f -execdir mv '{}' $(uuid).m4a \;
+ 1839  ls
+ 1840  find . -type f -execdir mv '{}' $(uuid).m4a \;
+ 1841  ls
+ 1842  cd
+ 1843  cd Qemu/
+ 1844  cd disk/
+ 1845  tree 
+ 1846  sudo modprobe nbd max_part=8
+ 1847  sudo qemu-nbd --connect=/dev/nbd0 test.qcow2 
+ 1848  lsblk 
+ 1849  sudo mount /dev/nbd0p3 /mnt/
+ 1850  tree /mnt/
+ 1851  cp -r /mnt/*.m4a ~/Música/
+ 1852  find /mnt/Users/jaideraao/Music/Apple\ Music/Media/Music/ -type f -iname '*.m4a' -print
+ 1853  sudo umount /mnt 
+ 1854  ls /mnt/
+ 1855  sudo qemu-nbd --disconnect /dev/nbd0
+ 1856  cd
+ 1857  pwd
+ 1858  find Descargas/Music/ -type f -iname '*.m4a' -print
+ 1859  man wc
+ 1860  find Descargas/Music/ -type f -iname '*.m4a' -print | wc
+ 1861  find Descargas/Music/ -type f -iname '*.m4a' -print | wc -l
+ 1862  cd 
+ 1863  cd Música/
+ 1864  ls
+ 1865  tree 
+ 1866  pwd
+ 1867  rename -h
+ 1868  man rename
+ 1869  $(uuid).m4a
+ 1870  '$(uuid).m4a'
+ 1871  echo '$(uuid).m4a'
+ 1872  echo "$(uuid).m4a"
+ 1873  pwd
+ 1874  ls
+ 1875  man find
+ 1876  pwd
+ 1877  ls
+ 1878  find . -type f -exec file '{}' \;
+ 1879  find . -type f -execdir file '{}' \;
+ 1880  find . -type f -execdir file '{}' +
+ 1881  find . -type f -exec file '{}' \;
+ 1882  find . -type f -execdir file '{}' \;
+ 1883  find . -type f -execdir file '{}' +
+ 1884  find . -type f -execdir file {} +
+ 1885  find . -type f -execdir ls {} +
+ 1886  find . -type f -execdir ls -Ahl {} +
+ 1887  find . -type f -execdir mv {} "$(uuid).m4a" +
+ 1888  find . -type f -execdir 'mv {} "$(uuid).m4a"' +
+ 1889  ls
+ 1890  vim rename-files.sh
+ 1891  pwd
+ 1892  ls
+ 1893  chmod +x rename-files.sh 
+ 1894  ls
+ 1895  ./rename-files.sh 
+ 1896  ls
+ 1897  cd
+ 1898  find . -type d -iname gnome -print
+ 1899  find . -type d -iname music -print
+ 1900  ls .local/share/Trash/
+ 1901  ls .local/share/Trash/files/
+ 1902  find . -type d -iname music -print
+ 1903  pwd
+ 1904  find . -type d -iname lollypod -print
+ 1905  find . -type d -iname lollypot -print
+ 1906  find . -type d -iname lollypop -print
+ 1907  rm -rf .cache/lollypop/
+ 1908  rm -rf .local/share/lollypop/
+ 1909  find . -type d -iname lollypop -print
+ 1910  find . -type d -iname gnome -print
+ 1911  find . -type d -iname musica -print
+ 1912  find . -type d -iname gnome-* -print
+ 1913  find . -type d -iname *-music -print
+ 1914  find . -type d -iname *-music -print -delete 
+ 1915  find . -type d -iname *-music -print 
+ 1916  rm -rf .cache/gnome-music/
+ 1917  find . -type d -iname *-music -print 
+ 1918  rm -rf .cache/gnome-music/
+ 1919  find . -type d -iname  -printollypop 
+ 1920  find . -type d -iname lollypop -print
+ 1921  pw-top 
+ 1922  apt search 'eartag'
+ 1923  apt search 'ear'
+ 1924  apt search id3
+ 1925  apt show eyed3 
+ 1926  apt show exfalso 
+ 1927  apt show puddletag
+ 1928  cd
+ 1929  cd Música/
+ 1930  ls
+ 1931  vim rename-files.sh
+ 1932  ls
+ 1933  chmod +x rename-files.sh 
+ 1934  ls
+ 1935  ./rename-files.sh 
+ 1936  ls
+ 1937  sudo apt purge gnome-music 
+ 1938  sudo apt autopurge 
+ 1939  find . -type d -iname lollypop -print
+ 1940  cd
+ 1941  find . -type d -iname lollypop -print
+ 1942  rm -rf .cache/lollypop/
+ 1943  rm -rf .local/share/lollypop/
+ 1944  find . -type d -iname lollypop -print
+ 1945  find . -type d -iname *-music -print 
+ 1946  rm -rf .cache/gnome-music/
+ 1947  find . -type d -iname *-music -print 
+ 1948  find . -type d -iname lollypop -print
+ 1949  ls
+ 1950  cd Música/
+ 1951  ls
+ 1952  file d7450720-5507-11ef-9da7-e7076811dec4.m4a 
+ 1953  ffmpeg -i d7450720-5507-11ef-9da7-e7076811dec4.m4a 
+ 1954  sudo apt install gnome-music 
+ 1955  pw-top 
+ 1956  find . -type d -iname lollypop -print
+ 1957  cd
+ 1958  find . -type d -iname lollypop -print
+ 1959  rm -rf .cache/lollypop/
+ 1960  rm -rf .local/share/lollypop/
+ 1961  find . -type d -iname lollypop -print
+ 1962  sudo apt purge gnome-music 
+ 1963  sudo apt autopurge 
+ 1964  cd
+ 1965  cd Música/
+ 1966  ls
+ 1967  ./rename-files.sh 
+ 1968  ls
+ 1969  ./rename-files.sh 
+ 1970  ls
+ 1971  ./rename-files.sh 
+ 1972  ls
+ 1973  ./rename-files.sh 
+ 1974  ls
+ 1975  ./rename-files.sh 
+ 1976  ls
+ 1977  ./rename-files.sh 
+ 1978  ls
+ 1979  ./rename-files.sh 
+ 1980  ls
+ 1981  cd
+ 1982  find . -type d -iname lollypop -print
+ 1983  rm -rf .local/share/lollypop/
+ 1984  rm -rf .cache/lollypop/
+ 1985  find . -type d -iname lollypop -print
+ 1986  rm -rf .cache/lollypop/
+ 1987  rm -rf .local/share/lollypop/
+ 1988  find . -type d -iname lollypop -print
+ 1989  cd
+ 1990  pactl load-module module-raop-discover
+ 1991  cd
+ 1992  apt search roap
+ 1993  apt search raop
+ 1994  apt search paprefs
+ 1995  pactl load-module module-raop-discover
+ 1996  cd
+ 1997  vim ~/.config/pipewire/pipewire.conf.d/raop-discover.conf
+ 1998  systemctl --user restart wireplumber pipewire pipewire-pulse
+ 1999  history 
+ 2000  pwd
+ 2001  history > Qemu/history.txt

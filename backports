@@ -1,0 +1,5 @@
+
+Package: *
+Pin: origin bookworm-backports 
+Pin-Priority: 1000
+
